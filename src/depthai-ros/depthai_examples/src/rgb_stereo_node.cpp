@@ -104,7 +104,8 @@ std::tuple<dai::Pipeline, int, int> createPipeline(bool lrcheck,
         colorCam->setVideoSize(3840, 2160);
     }
 
-    colorCam->setPreviewSize(previewWidth, previewHeight);
+    // colorCam->setPreviewSize(previewWidth, previewHeight);
+    colorCam->setPreviewSize(300,300);
     colorCam->setInterleaved(false);
     colorCam->setColorOrder(dai::ColorCameraProperties::ColorOrder::BGR);
     colorCam->setFps(30);
@@ -145,8 +146,8 @@ int main(int argc, char** argv) {
     node->declare_parameter("LRchecktresh", 5);
     node->declare_parameter("monoResolution", "720p");
     node->declare_parameter("colorResolution", "1080p");
-    node->declare_parameter("useVideo", true);
-    node->declare_parameter("usePreview", false);
+    node->declare_parameter("useVideo", false);
+    node->declare_parameter("usePreview", true);
     node->declare_parameter("useDepth", true);
     node->declare_parameter("previewWidth", 300);
     node->declare_parameter("previewHeight", 300);
