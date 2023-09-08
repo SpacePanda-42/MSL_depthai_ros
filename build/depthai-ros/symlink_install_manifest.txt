@@ -1,0 +1,15 @@
+/home/ubuntu/dai_ws/install/depthai-ros/share/ament_index/resource_index/package_run_dependencies/depthai-ros
+/home/ubuntu/dai_ws/install/depthai-ros/share/ament_index/resource_index/parent_prefix_path/depthai-ros
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.sh
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.dsv
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/path.sh
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/path.dsv
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.bash
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.sh
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.zsh
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.dsv
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/package.dsv
+/home/ubuntu/dai_ws/install/depthai-ros/share/ament_index/resource_index/packages/depthai-ros
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig.cmake
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig-version.cmake
+/home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/package.xml

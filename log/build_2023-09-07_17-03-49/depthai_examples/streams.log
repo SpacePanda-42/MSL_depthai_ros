@@ -1,0 +1,113 @@
+[0.076s] Invoking command in '/home/ubuntu/dai_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/dai_ws/src/depthai-ros/depthai_examples -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dai_ws/install/depthai_examples
+[0.374s] -- The CXX compiler identification is GNU 11.4.0
+[0.589s] -- The C compiler identification is GNU 11.4.0
+[0.621s] -- Detecting CXX compiler ABI info
+[0.977s] -- Detecting CXX compiler ABI info - done
+[1.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.006s] -- Detecting CXX compile features
+[1.008s] -- Detecting CXX compile features - done
+[1.018s] -- Detecting C compiler ABI info
+[1.339s] -- Detecting C compiler ABI info - done
+[1.368s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.368s] -- Detecting C compile features
+[1.370s] -- Detecting C compile features - done
+[8.089s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.969s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[9.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.614s] -- ------------------------------------------
+[9.614s] -- Depthai Bridge is being built using AMENT.
+[9.614s] -- ------------------------------------------
+[9.639s] -- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)
+[10.122s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[10.183s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[10.258s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[10.355s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[10.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.962s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.994s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.643s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.868s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.259s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.361s] -- Looking for pthread.h
+[12.696s] -- Looking for pthread.h - found
+[12.697s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.033s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.038s] -- Found Threads: TRUE  
+[14.518s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[14.586s] -- Found depthai_ros_msgs: 2.8.0 (/home/ubuntu/dai_ws/install/depthai_ros_msgs/share/depthai_ros_msgs/cmake)
+[15.398s] -- Found depthai_bridge: 2.8.0 (/home/ubuntu/dai_ws/install/depthai_bridge/share/depthai_bridge/cmake)
+[18.251s] -- Configuring done
+[18.537s] -- Generating done
+[18.547s] -- Build files have been written to: /home/ubuntu/dai_ws/build/depthai_examples
+[18.603s] Invoked command in '/home/ubuntu/dai_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/dai_ws/src/depthai-ros/depthai_examples -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dai_ws/install/depthai_examples
+[18.612s] Invoking command in '/home/ubuntu/dai_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/dai_ws/build/depthai_examples
+[18.842s] [  7%] [32mBuilding CXX object CMakeFiles/crop_control_service.dir/src/crop_control_service.cpp.o[0m
+[36.372s] [ 14%] [32m[1mLinking CXX executable crop_control_service[0m
+[37.386s] [ 14%] Built target crop_control_service
+[37.485s] [ 21%] [32mBuilding CXX object CMakeFiles/mobilenet_node.dir/src/mobilenet_publisher.cpp.o[0m
+[78.080s] [ 28%] [32m[1mLinking CXX executable mobilenet_node[0m
+[81.264s] [ 28%] Built target mobilenet_node
+[81.359s] [ 35%] [32mBuilding CXX object CMakeFiles/rgb_stereo_node.dir/src/rgb_stereo_node.cpp.o[0m
+[121.517s] [ 42%] [32m[1mLinking CXX executable rgb_stereo_node[0m
+[124.625s] [ 42%] Built target rgb_stereo_node
+[124.720s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_inertial_node.dir/src/stereo_inertial_publisher.cpp.o[0m
+[182.214s] [ 57%] [32m[1mLinking CXX executable stereo_inertial_node[0m
+[185.896s] [ 57%] Built target stereo_inertial_node
+[185.989s] [ 64%] [32mBuilding CXX object CMakeFiles/feature_tracker.dir/src/feature_tracker_publisher.cpp.o[0m
+[231.626s] [ 71%] [32m[1mLinking CXX executable feature_tracker[0m
+[234.741s] [ 71%] Built target feature_tracker
+[234.832s] [ 78%] [32mBuilding CXX object CMakeFiles/stereo_node.dir/src/stereo_publisher.cpp.o[0m
+[275.304s] [ 85%] [32m[1mLinking CXX executable stereo_node[0m
+[278.534s] [ 85%] Built target stereo_node
+[278.629s] [ 92%] [32mBuilding CXX object CMakeFiles/yolov4_spatial_node.dir/src/yolov4_spatial_publisher.cpp.o[0m
+[324.909s] [100%] [32m[1mLinking CXX executable yolov4_spatial_node[0m
+[328.239s] [100%] Built target yolov4_spatial_node
+[328.282s] Invoked command in '/home/ubuntu/dai_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/dai_ws/build/depthai_examples
+[328.590s] Invoking command in '/home/ubuntu/dai_ws/build/depthai_examples': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/dai_ws/build/depthai_examples
+[328.618s] -- Install configuration: ""
+[328.620s] -- Execute custom install script
+[328.622s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/color.yaml
+[328.654s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/left.yaml
+[328.688s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/params/camera/right.yaml
+[328.723s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/pointCloud.rviz
+[328.757s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/rgb_camera.rviz
+[328.791s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertial.rviz
+[328.823s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlign.rviz
+[328.858s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialDepthAlignROS2.rviz
+[328.894s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoInertialROS1.rviz
+[328.930s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud.rviz
+[328.966s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereoPointCloud_v1.rviz
+[329.001s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_config.rviz
+[329.035s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/rviz/stereo_nodelet.rviz
+[329.070s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/resources/deeplab_v3_plus_mnv2_decoder_256_openvino_2021.4.blob
+[329.105s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/resources/mobilenet-ssd_openvino_2021.2_6shave.blob
+[329.140s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/resources/yolov4_tiny_coco_416x416_openvino_2021.4_6shave_bgr.blob
+[329.177s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/crop_control_service
+[329.213s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/mobilenet_node
+[329.246s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/rgb_stereo_node
+[329.283s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/stereo_inertial_node
+[329.318s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/stereo_node
+[329.355s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/yolov4_spatial_node
+[329.389s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/lib/depthai_examples/feature_tracker
+[329.426s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/ament_index/resource_index/package_run_dependencies/depthai_examples
+[329.462s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/ament_index/resource_index/parent_prefix_path/depthai_examples
+[329.497s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.sh
+[329.532s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/environment/ament_prefix_path.dsv
+[329.565s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/environment/path.sh
+[329.599s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/environment/path.dsv
+[329.632s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.bash
+[329.664s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.sh
+[329.698s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.zsh
+[329.732s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/local_setup.dsv
+[329.767s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/package.dsv
+[329.800s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/ament_index/resource_index/packages/depthai_examples
+[329.835s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig.cmake
+[329.868s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/cmake/depthai_examplesConfig-version.cmake
+[329.903s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/package.xml
+[329.938s] -- Installing: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch
+[329.939s] -- Installing: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py
+[329.940s] -- Installing: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py
+[329.941s] -- Installing: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py
+[329.942s] -- Installing: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py
+[329.943s] -- Installing: /home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py
+[329.961s] Invoked command in '/home/ubuntu/dai_ws/build/depthai_examples' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/dai_ws/build/depthai_examples

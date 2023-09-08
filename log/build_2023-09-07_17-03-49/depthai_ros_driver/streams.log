@@ -1,0 +1,182 @@
+[0.085s] Invoking command in '/home/ubuntu/dai_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/dai_ws/src/depthai-ros/depthai_ros_driver -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dai_ws/install/depthai_ros_driver
+[0.347s] -- The C compiler identification is GNU 11.4.0
+[0.600s] -- The CXX compiler identification is GNU 11.4.0
+[0.632s] -- Detecting C compiler ABI info
+[0.952s] -- Detecting C compiler ABI info - done
+[0.979s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.980s] -- Detecting C compile features
+[0.981s] -- Detecting C compile features - done
+[0.992s] -- Detecting CXX compiler ABI info
+[1.347s] -- Detecting CXX compiler ABI info - done
+[1.373s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.374s] -- Detecting CXX compile features
+[1.376s] -- Detecting CXX compile features - done
+[1.407s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.370s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.650s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.913s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.975s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.052s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.291s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.757s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.790s] -- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.431s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.651s] -- Found FastRTPS: /opt/ros/humble/include  
+[6.027s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.129s] -- Looking for pthread.h
+[6.467s] -- Looking for pthread.h - found
+[6.468s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.810s] -- Found Threads: TRUE  
+[12.401s] -- Configuring done
+[12.637s] -- Generating done
+[12.648s] -- Build files have been written to: /home/ubuntu/dai_ws/build/depthai_ros_driver
+[12.700s] Invoked command in '/home/ubuntu/dai_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/ubuntu/dai_ws/src/depthai-ros/depthai_ros_driver -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dai_ws/install/depthai_ros_driver
+[12.707s] Invoking command in '/home/ubuntu/dai_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/dai_ws/build/depthai_ros_driver
+[12.953s] [  3%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/utils.cpp.o[0m
+[18.838s] [  7%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/base_node.cpp.o[0m
+[39.340s] [ 11%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sys_logger.cpp.o[0m
+[71.602s] [ 15%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/dai_nodes/sensors/sensor_helpers.cpp.o[0m
+[99.297s] [ 19%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/camera_param_handler.cpp.o[0m
+[111.126s] [ 23%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/imu_param_handler.cpp.o[0m
+[130.765s] [ 26%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/nn_param_handler.cpp.o[0m
+[151.384s] [ 30%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/sensor_param_handler.cpp.o[0m
+[167.964s] [ 34%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/feature_tracker_param_handler.cpp.o[0m
+[182.894s] [ 38%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_common.dir/src/param_handlers/stereo_param_handler.cpp.o[0m
+[202.039s] [ 42%] [32m[1mLinking CXX shared library libdepthai_ros_driver_common.so[0m
+[205.202s] [ 42%] Built target depthai_ros_driver_common
+[205.298s] [ 46%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/imu.cpp.o[0m
+[240.305s] [ 50%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/rgb.cpp.o[0m
+[272.714s] [ 53%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/mono.cpp.o[0m
+[304.824s] [ 57%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/feature_tracker.cpp.o[0m
+[333.994s] [ 61%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/sensors/sensor_wrapper.cpp.o[0m
+[378.824s] [ 65%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_sensor_nodes.dir/src/dai_nodes/stereo.cpp.o[0m
+[415.975s] [ 69%] [32m[1mLinking CXX shared library libdepthai_ros_driver_sensor_nodes.so[0m
+[421.556s] [ 69%] Built target depthai_ros_driver_sensor_nodes
+[421.653s] [ 73%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/nn_wrapper.cpp.o[0m
+[460.479s] [ 76%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/spatial_nn_wrapper.cpp.o[0m
+[500.980s] [ 80%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver_nn_nodes.dir/src/dai_nodes/nn/segmentation.cpp.o[0m
+[533.079s] [ 84%] [32m[1mLinking CXX shared library libdepthai_ros_driver_nn_nodes.so[0m
+[536.702s] [ 84%] Built target depthai_ros_driver_nn_nodes
+[536.796s] [ 88%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/camera.cpp.o[0m
+[590.421s] [ 92%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/pipeline_generator.cpp.o[0m
+[629.540s] [ 96%] [32mBuilding CXX object CMakeFiles/depthai_ros_driver.dir/src/pipeline/base_types.cpp.o[0m
+[654.184s] [100%] [32m[1mLinking CXX shared library libdepthai_ros_driver.so[0m
+[660.794s] [100%] Built target depthai_ros_driver
+[660.918s] [100%] Built target ament_cmake_python_symlink_depthai_ros_driver
+[662.021s] running egg_info
+[662.024s] creating depthai_ros_driver.egg-info
+[662.024s] writing depthai_ros_driver.egg-info/PKG-INFO
+[662.025s] writing dependency_links to depthai_ros_driver.egg-info/dependency_links.txt
+[662.026s] writing top-level names to depthai_ros_driver.egg-info/top_level.txt
+[662.027s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[662.035s] reading manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[662.037s] writing manifest file 'depthai_ros_driver.egg-info/SOURCES.txt'
+[662.168s] [100%] Built target ament_cmake_python_build_depthai_ros_driver_egg
+[662.211s] Invoked command in '/home/ubuntu/dai_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/dai_ws/build/depthai_ros_driver
+[662.804s] Invoking command in '/home/ubuntu/dai_ws/build/depthai_ros_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/dai_ws/build/depthai_ros_driver
+[662.834s] -- Install configuration: ""
+[662.836s] -- Execute custom install script
+[662.837s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver//plugins.xml
+[662.871s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.sh
+[662.905s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/library_path.dsv
+[662.941s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/calibration.launch.py
+[662.975s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/camera.launch.py
+[663.008s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_marker_publish.launch.py
+[663.045s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_multicam.launch.py
+[663.079s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/example_segmentation.launch.py
+[663.113s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/pointcloud.launch.py
+[663.146s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rgbd_pcl.launch.py
+[663.180s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/rtabmap.launch.py
+[663.213s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/launch/stereo_from_rosbag.launch.py
+[663.248s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration.yaml
+[663.282s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/left.yaml
+[663.314s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/rgb.yaml
+[663.348s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/calibration/right.yaml
+[663.385s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/camera.yaml
+[663.420s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/low_bandwidth.yaml
+[663.456s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/multicam_example.yaml
+[663.492s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/mobilenet.json
+[663.528s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/segmentation.json
+[663.564s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/nn/yolo.json
+[663.600s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/oak_d_pro_w.yaml
+[663.633s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/pcl.yaml
+[663.666s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rgbd.yaml
+[663.700s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/multicam.rviz
+[663.734s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/rgbd.rviz
+[663.766s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/rviz/segmentation.rviz
+[663.800s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/segmentation.yaml
+[663.834s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/spatial_yolo.yaml
+[663.866s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/config/stereo_from_rosbag.yaml
+[663.902s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.sh
+[663.935s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/pythonpath.dsv
+[663.973s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.8.0-py3.10.egg-info/PKG-INFO
+[664.009s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.8.0-py3.10.egg-info/SOURCES.txt
+[664.045s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.8.0-py3.10.egg-info/dependency_links.txt
+[664.078s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver-2.8.0-py3.10.egg-info/top_level.txt
+[664.115s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver/__init__.py
+[664.150s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/lib/depthai_ros_driver/obj_pub.py
+[664.190s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/camera.hpp
+[664.226s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/base_node.hpp
+[664.263s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/detection.hpp
+[664.299s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_helpers.hpp
+[664.333s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/nn_wrapper.hpp
+[664.367s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/segmentation.hpp
+[664.401s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_detection.hpp
+[664.436s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/nn/spatial_nn_wrapper.hpp
+[664.471s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/feature_tracker.hpp
+[664.506s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/imu.hpp
+[664.543s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/mono.hpp
+[664.577s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/rgb.hpp
+[664.611s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_helpers.hpp
+[664.645s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sensors/sensor_wrapper.hpp
+[664.680s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/stereo.hpp
+[664.715s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/dai_nodes/sys_logger.hpp
+[664.750s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/base_param_handler.hpp
+[664.784s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/camera_param_handler.hpp
+[664.818s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/feature_tracker_param_handler.hpp
+[664.854s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/imu_param_handler.hpp
+[664.888s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/nn_param_handler.hpp
+[664.923s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/sensor_param_handler.hpp
+[664.959s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/param_handlers/stereo_param_handler.hpp
+[664.996s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_pipeline.hpp
+[665.032s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/base_types.hpp
+[665.069s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/pipeline/pipeline_generator.hpp
+[665.104s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/include/depthai_ros_driver/utils.hpp
+[665.138s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/ament_index/resource_index/package_run_dependencies/depthai_ros_driver
+[665.175s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/ament_index/resource_index/parent_prefix_path/depthai_ros_driver
+[665.213s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.sh
+[665.248s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/ament_prefix_path.dsv
+[665.283s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.sh
+[665.318s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/environment/path.dsv
+[665.352s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.bash
+[665.388s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.sh
+[665.422s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.zsh
+[665.457s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/local_setup.dsv
+[665.493s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.dsv
+[665.529s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/ament_index/resource_index/packages/depthai_ros_driver
+[665.566s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/ament_index/resource_index/depthai_ros_driver__pluginlib__plugin/depthai_ros_driver
+[665.602s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/ament_index/resource_index/rclcpp_components/depthai_ros_driver
+[665.639s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[665.675s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_targets-extras.cmake
+[665.710s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[665.746s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[665.780s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig.cmake
+[665.817s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverConfig-version.cmake
+[665.853s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/package.xml
+[665.890s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so
+[665.962s] -- Set runtime path of "/home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver.so" to ""
+[665.962s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so
+[666.030s] -- Set runtime path of "/home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_sensor_nodes.so" to ""
+[666.031s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so
+[666.060s] -- Set runtime path of "/home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_nn_nodes.so" to ""
+[666.061s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so
+[666.101s] -- Set runtime path of "/home/ubuntu/dai_ws/install/depthai_ros_driver/lib/libdepthai_ros_driver_common.so" to ""
+[666.102s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets.cmake
+[666.103s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargets-noconfig.cmake
+[666.251s] Listing '/home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver'...
+[666.252s] Compiling '/home/ubuntu/dai_ws/install/depthai_ros_driver/local/lib/python3.10/dist-packages/depthai_ros_driver/__init__.py'...
+[666.276s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport.cmake
+[666.277s] -- Installing: /home/ubuntu/dai_ws/install/depthai_ros_driver/share/depthai_ros_driver/cmake/depthai_ros_driverTargetsExport-noconfig.cmake
+[666.292s] Invoked command in '/home/ubuntu/dai_ws/build/depthai_ros_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dai_ws/install/depthai_bridge/lib:/home/ubuntu/dai_ws/install/depthai_ros_msgs/lib:/home/ubuntu/dai_ws/install/depthai_ros_driver/lib:/home/ubuntu/dai_ws/install/depthai_filters/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/dai_ws/build/depthai_ros_driver

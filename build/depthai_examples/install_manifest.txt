@@ -1,0 +1,5 @@
+/home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo_inertial_node.launch.py
+/home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/stereo.launch.py
+/home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/yolov4_publisher.launch.py
+/home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/rgb_stereo_node.launch.py
+/home/ubuntu/dai_ws/install/depthai_examples/share/depthai_examples/launch/mobile_publisher.launch.py

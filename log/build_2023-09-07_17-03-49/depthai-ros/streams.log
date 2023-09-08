@@ -1,0 +1,47 @@
+[0.096s] Invoking command in '/home/ubuntu/dai_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble /usr/bin/cmake /home/ubuntu/dai_ws/src/depthai-ros/depthai-ros -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dai_ws/install/depthai-ros
+[0.397s] -- The CXX compiler identification is GNU 11.4.0
+[0.635s] -- The C compiler identification is GNU 11.4.0
+[0.668s] -- Detecting CXX compiler ABI info
+[1.024s] -- Detecting CXX compiler ABI info - done
+[1.053s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.054s] -- Detecting CXX compile features
+[1.056s] -- Detecting CXX compile features - done
+[1.066s] -- Detecting C compiler ABI info
+[1.391s] -- Detecting C compiler ABI info - done
+[1.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.417s] -- Detecting C compile features
+[1.419s] -- Detecting C compile features - done
+[1.455s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.349s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.633s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.334s] -- Configuring done
+[3.351s] -- Generating done
+[3.353s] [33mCMake Warning:
+[3.354s]   Manually-specified variables were not used by the project:
+[3.354s] 
+[3.354s]     BUILD_SHARED_LIBS
+[3.355s] 
+[3.355s] [0m
+[3.355s] -- Build files have been written to: /home/ubuntu/dai_ws/build/depthai-ros
+[3.368s] Invoked command in '/home/ubuntu/dai_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble /usr/bin/cmake /home/ubuntu/dai_ws/src/depthai-ros/depthai-ros -DBUILD_SHARED_LIBS=ON -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ubuntu/dai_ws/install/depthai-ros
+[3.376s] Invoking command in '/home/ubuntu/dai_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dai_ws/build/depthai-ros
+[3.528s] Invoked command in '/home/ubuntu/dai_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dai_ws/build/depthai-ros
+[3.665s] Invoking command in '/home/ubuntu/dai_ws/build/depthai-ros': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dai_ws/build/depthai-ros
+[3.695s] -- Install configuration: ""
+[3.697s] -- Execute custom install script
+[3.698s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/ament_index/resource_index/package_run_dependencies/depthai-ros
+[3.732s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/ament_index/resource_index/parent_prefix_path/depthai-ros
+[3.767s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.sh
+[3.802s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/ament_prefix_path.dsv
+[3.838s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/path.sh
+[3.872s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/environment/path.dsv
+[3.908s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.bash
+[3.943s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.sh
+[3.978s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.zsh
+[4.011s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/local_setup.dsv
+[4.046s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/package.dsv
+[4.083s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/ament_index/resource_index/packages/depthai-ros
+[4.118s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig.cmake
+[4.154s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/cmake/depthai-rosConfig-version.cmake
+[4.190s] -- Symlinking: /home/ubuntu/dai_ws/install/depthai-ros/share/depthai-ros/package.xml
+[4.241s] Invoked command in '/home/ubuntu/dai_ws/build/depthai-ros' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dai_ws/install/depthai_ros_driver:/home/ubuntu/dai_ws/install/depthai_examples:/home/ubuntu/dai_ws/install/depthai_filters:/home/ubuntu/dai_ws/install/depthai_bridge:/home/ubuntu/dai_ws/install/depthai_ros_msgs:/home/ubuntu/dai_ws/install/depthai_descriptions:/home/ubuntu/dai_ws/install/depthai-ros:/home/ubuntu/ws_MSL_YOLO/install/MSL_turtlebot4_startup:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dai_ws/build/depthai-ros
