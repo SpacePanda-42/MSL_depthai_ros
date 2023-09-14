@@ -36,7 +36,7 @@
       i_fps: 30.0
       i_height: 720
       i_low_bandwidth: true
-      i_low_bandwidth_quality: 50
+      i_low_bandwidth_quality: 20
       i_max_q_size: 30
       i_publish_topic: false
       i_simulate_from_topic: false
@@ -63,7 +63,7 @@
       i_interleaved: false
       i_keep_preview_aspect_ratio: true
       i_low_bandwidth: true
-      i_low_bandwidth_quality: 50
+      i_low_bandwidth_quality: 20
       i_max_q_size: 30
       i_preview_size: 300
       i_publish_topic: true
@@ -87,7 +87,7 @@
       i_fps: 30.0
       i_height: 720
       i_low_bandwidth: true
-      i_low_bandwidth_quality: 50
+      i_low_bandwidth_quality: 20
       i_max_q_size: 30
       i_publish_topic: false
       i_simulate_from_topic: false
@@ -119,7 +119,7 @@
       i_extended_disp: false
       i_height: 720
       i_low_bandwidth: true
-      i_low_bandwidth_quality: 50
+      i_low_bandwidth_quality: 20
       i_lr_check: true
       i_lrc_threshold: 10
       i_max_q_size: 30
