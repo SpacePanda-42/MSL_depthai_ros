@@ -31,7 +31,7 @@ def launch_setup(context, *args, **kwargs):
                                "cam_roll": LaunchConfiguration("cam_roll"),
                                "cam_pitch": LaunchConfiguration("cam_pitch"),
                                "cam_yaw": LaunchConfiguration("cam_yaw"),
-                               "use_rviz": LaunchConfiguration("use_rviz")
+                               "use_rviz": LaunchConfiguration("0")
                                }.items()),
 
         LoadComposableNodes(
