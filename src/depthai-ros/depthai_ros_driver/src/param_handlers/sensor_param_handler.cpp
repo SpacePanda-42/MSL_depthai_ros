@@ -18,7 +18,7 @@ SensorParamHandler::~SensorParamHandler() = default;
 
 void SensorParamHandler::declareCommonParams() {
     declareAndLogParam<int>("i_max_q_size", 30);
-    declareAndLogParam<bool>("i_low_bandwidth", false);
+    declareAndLogParam<bool>("i_low_bandwidth", true);
     declareAndLogParam<int>("i_low_bandwidth_quality", 50);
     declareAndLogParam<std::string>("i_calibration_file", "");
     declareAndLogParam<bool>("i_simulate_from_topic", false);
